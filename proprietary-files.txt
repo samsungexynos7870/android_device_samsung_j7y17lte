@@ -21,7 +21,7 @@ vendor/bin/hw/android.hardware.bluetooth@1.0-service
 vendor/etc/init/android.hardware.bluetooth@1.0-service.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so
 vendor/lib/libbt-vendor.so
-vendor/lib/vendor.samsung.hardware.bluetooth@1.0.so
+vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so
 
 # Camera
 vendor/firmware/fimc_is_lib.bin
@@ -34,6 +34,7 @@ vendor/lib/libhwjpeg.so
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.samsung
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.samsung.rc
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
 vendor/lib/libegis_fp_normal_sensor_test.so
@@ -55,6 +56,7 @@ vendor/app/mcRegistry/ffffffff00000000000000000000000d.tlbin
 vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin
 vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin
 vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin
+vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin
 vendor/app/mcRegistry/ffffffff000000000000000000000016.tlbin
 vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin
 vendor/app/mcRegistry/ffffffff000000000000000000000019.tlbin
