@@ -79,12 +79,49 @@ void vendor_load_properties()
     std::string bootloader = GetProperty("ro.bootloader","");
 
     if (bootloader.find("J730F") == 0) {
-        /* SM-A320FL */
-        property_override_quad("ro.bootimage.build.fingerprint", "ro.build.fingerprint", "ro.odm.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/j7y17ltexc/j7y17lte:9.0.0/R16NW/J730FXXU6CSK6:user/release-keys");
-        property_override("ro.build.description", "j7y17ltexc-user 9.0.0 R16NW J730FXXU6CSK6 test-keys");
+        /* SM-J730F */
+        property_override_quad("ro.bootimage.build.fingerprint", "ro.build.fingerprint", "ro.odm.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/j7y17ltexx/j7y17lte:9/PPR1.180610.011/J730FXXS6CTD1:user/release-keys");
+        property_override("ro.build.description", "j7y17ltexx-user 9 PPR1.180610.011 J730FXXS6CTD1 test-keys");
         property_override_quad("ro.product.model", "ro.product.odm.model", "ro.product.system.model", "ro.product.vendor.model", "SM-J730F");
         property_override_quad("ro.product.device", "ro.product.odm.device", "ro.product.system.device", "ro.product.vendor.device", "j7y17lte");
-        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "j7y17ltexc");
+        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "j7y17ltexx");
+
+        init_dsds();
+
+    }
+
+    if (bootloader.find("J730FM") == 0) {
+        /* SM-J730FM */
+        property_override_quad("ro.bootimage.build.fingerprint", "ro.build.fingerprint", "ro.odm.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/j7y17ltexx/j7y17lte:9/PPR1.180610.011/J730FXXS6CTD1:user/release-keys");
+        property_override("ro.build.description", "j7y17ltexx-user 9 PPR1.180610.011 J730FXXS6CTD1 test-keys");
+        property_override_quad("ro.product.model", "ro.product.odm.model", "ro.product.system.model", "ro.product.vendor.model", "SM-J730FM");
+        property_override_quad("ro.product.device", "ro.product.odm.device", "ro.product.system.device", "ro.product.vendor.device", "j7y17lte");
+        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "j7y17ltexx");
+
+        init_dsds();
+
+    }
+
+    if (bootloader.find("J730G") == 0) {
+        /* SM-J730G */
+        property_override_quad("ro.bootimage.build.fingerprint", "ro.build.fingerprint", "ro.odm.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/j7y17ltexx/j7y17lte:9/PPR1.180610.011/J730FXXS6CTD1:user/release-keys");
+        property_override("ro.build.description", "j7y17ltexx-user 9 PPR1.180610.011 J730FXXS6CTD1 test-keys");
+        property_override_quad("ro.product.model", "ro.product.odm.model", "ro.product.system.model", "ro.product.vendor.model", "SM-J730G");
+        property_override_quad("ro.product.device", "ro.product.odm.device", "ro.product.system.device", "ro.product.vendor.device", "j7y17lte");
+        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "j7y17ltexx");
+
+        init_dsds();
+
+    }
+
+
+    if (bootloader.find("J730GM") == 0) {
+        /* SM-J730GM */
+        property_override_quad("ro.bootimage.build.fingerprint", "ro.build.fingerprint", "ro.odm.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/j7y17ltexx/j7y17lte:9/PPR1.180610.011/J730FXXS6CTD1:user/release-keys");
+        property_override("ro.build.description", "j7y17ltexx-user 9 PPR1.180610.011 J730FXXS6CTD1 test-keys");
+        property_override_quad("ro.product.model", "ro.product.odm.model", "ro.product.system.model", "ro.product.vendor.model", "SM-J730GM");
+        property_override_quad("ro.product.device", "ro.product.odm.device", "ro.product.system.device", "ro.product.vendor.device", "j7y17lte");
+        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "j7y17ltexx");
 
         init_dsds();
 
