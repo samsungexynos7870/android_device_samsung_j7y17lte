@@ -29,7 +29,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 PRODUCT_DEVICE := j7y17lte
 PRODUCT_NAME := aosp_j7y17lte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-J730F
+PRODUCT_MODEL := SM-G981B
 PRODUCT_MANUFACTURER := samsung
 
 TARGET_VENDOR := samsung
@@ -40,4 +40,5 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Build info
-BUILD_FINGERPRINT :="samsung/j7y17ltexc/j7y17lte:9.0.0/R16NW/J730FXXU6CSK6:user/release-keys"
+BUILD_FINGERPRINT :="samsung/x1sxxx/x1s:10/QP1A.190711.020/G981BXXU1ATCT:user/release-keys"
+
