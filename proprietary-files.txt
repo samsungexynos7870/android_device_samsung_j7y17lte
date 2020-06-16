@@ -16,13 +16,6 @@
 vendor/etc/Tfa9896.cnt
 vendor/lib/libtfa98xx.so
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service
-vendor/etc/init/android.hardware.bluetooth@1.0-service.rc
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so
-vendor/lib/libbt-vendor.so
-vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so
-
 # Camera
 vendor/firmware/fimc_is_lib.bin
 vendor/firmware/mfc_fw.bin
