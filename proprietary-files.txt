@@ -18,7 +18,6 @@ vendor/lib/libtfa98xx.so
 
 # Camera
 vendor/firmware/fimc_is_lib.bin
-vendor/firmware/mfc_fw.bin
 vendor/firmware/setfile_3m3.bin
 vendor/firmware/setfile_imx258.bin
 vendor/lib/libexynoscamera.so
