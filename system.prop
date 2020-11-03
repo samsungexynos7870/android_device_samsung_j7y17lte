@@ -1,8 +1,0 @@
-ro.hardware=samsungexynos7870
-ro.arch=exynos7870
-ro.chipname=exynos7870
-ro.product.brand=samsung
-ro.product.name=j7y17lte
-ro.product.device=j7y17lte
-ro.build.product=j7y17lte
-ro.treble.enabled=true

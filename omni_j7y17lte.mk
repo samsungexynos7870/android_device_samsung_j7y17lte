@@ -30,4 +30,3 @@ PRODUCT_NAME := omni_j7y17lte
 PRODUCT_MODEL := Samsung Galaxy J7 2017
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-
