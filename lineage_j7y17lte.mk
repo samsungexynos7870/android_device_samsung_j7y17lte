@@ -29,6 +29,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_DEVICE := j7y17lte
 PRODUCT_NAME := lineage_j7y17lte
 PRODUCT_BRAND := samsung
+PRODUCT_MODEL := Galaxy J7 2017
 PRODUCT_MANUFACTURER := samsung
 
 TARGET_VENDOR := samsung
