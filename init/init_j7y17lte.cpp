@@ -115,7 +115,6 @@ void vendor_load_properties()
     }
 
     /* Common properties*/
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
     property_override("ro.build.description", "samsung/j7y17ltexx/j7y17lte:9/PPR1.180610.011/J730FXXU6CSK6:user/release-keys");
     property_override_quad("ro.product.device", "ro.product.odm.device", "ro.product.system.device", "ro.product.vendor.device", "j7y17lte");
 
