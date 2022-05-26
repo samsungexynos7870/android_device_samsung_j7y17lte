@@ -18,6 +18,9 @@ DEVICE_PATH := device/samsung/j7y17lte
 # Audio
 BOARD_USE_TFA_AMP := true
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := j7y17lte,j7y17ltexx,j7y17ltextc
 
@@ -44,6 +47,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 # Shims
 TARGET_LD_SHIM_LIBS += \
     /vendor/lib/libbauthserver.so|/vendor/lib/libbauthtzcommon_shim.so
+
+# ANT+
+BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Wifi
 BOARD_WLAN_DEVICE                := bcmdhd
