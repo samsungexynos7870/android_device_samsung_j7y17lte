@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2019 The ArrowOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j7y17lte.mk
+    $(LOCAL_DIR)/arrow_j7y17lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j7y17lte-user \
-    lineage_j7y17lte-userdebug \
-    lineage_j7y17lte-eng
+    arrow_j7y17lte-user \
+    arrow_j7y17lte-userdebug \
+    arrow_j7y17lte-eng
