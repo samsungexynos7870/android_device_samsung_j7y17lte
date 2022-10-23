@@ -110,3 +110,29 @@ BOARD_BUILD_DISABLED_VBMETAIMAGE := true
 
 # Include
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/dtbhtool/include
+
+
+#################################
+# SHRP section
+###############
+TARGET_DEVICE := j7y17lte
+SHRP_PATH := $(DEVICE_PATH)
+SHRP_DEVICE_CODE := j7y17lte
+SHRP_MAINTAINER := batuhantrkgl
+SHRP_OFFICIAL := false
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /sys/class/camera/flash/rear_torch_flash
+SHRP_FLASH_MAX_BRIGHTNESS := 200
+SHRP_REC := /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
+SHRP_AB := false
+SHRP_REC_TYPE := Non-Treble
+SHRP_DEVICE_TYPE := A_Only
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
+SHRP_EXPRESS := true
+LZMA_RAMDISK_TARGETS := recovery
